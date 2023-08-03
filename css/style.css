@@ -1,0 +1,23 @@
+a {
+ color: #8d8176;
+text-decoration: none !important;
+border: none !important;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.link {
+    color: rgb(43, 226, 147);
+}
+
+.mainPage {
+color: rgb(74, 71, 255);
+}
+
+.buttonOk {
+  color: rgb(219, 81, 32);
+  margin-top: 10px;
+  padding: 7px;
+}
