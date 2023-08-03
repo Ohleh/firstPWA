@@ -3,7 +3,13 @@ const CacheKey = "cache-v2";
 const initCache = () => {
   return caches.open(CacheKey).then(
     (cache) => {
-      return cache.addAll(["index.html", "page2.html", "page2.html", "js/app.js", "style.css"]);
+      return cache.addAll([
+        "/index.html",
+        "/page1.html",
+        "/page2.html",
+        "/js/app.js",
+        "/css/style.css",
+      ]);
     },
     (error) => {
       console.log(error);

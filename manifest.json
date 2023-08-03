@@ -1,6 +1,6 @@
 {
   "name": "firstPWA",
-  "short_mane": "PWA",
+  "short_name": "PWA",
   "start_url": ".",
   "id": "/index.html",
   "theme_color": " #CD7F32",
